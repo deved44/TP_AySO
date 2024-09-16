@@ -1,0 +1,218 @@
+pwd
+ll
+ls -l
+ls -l /home/vagrant/repogit
+ls - l repogit/UTN-FRA_SO_onBording/
+ls -l ../
+pwd
+cd repogit/
+pwd
+cd
+pwd
+echo $HOME
+ls -l /boot/
+pwd
+ls -lh /boot/
+pwd
+cat /proc/cpuinfo
+echo "hola mundo" |wc
+pwd
+ls -l /var/log
+ls -l /mnt/
+ls -l /media/
+whoami
+id
+history
+poweroff
+sudo poweroff
+poweroff
+sudo poweroff
+“ssh-keygen
+ssh-keygen
+cat $HOME/.ssh/*.pub
+ls -l
+cd repogit
+ll
+alias
+alias saludo="echo $(whoami)"
+saludo
+whoami
+echo hola
+alias saludo="echo hola $(whoami)"
+saludo
+alias
+lll
+ll
+ls -la ../
+ls -la $HOME
+ls -la /home/vagrant/
+ls -la /home/vagrant/.ssh/
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls -la /home/vagrant/.ssh/
+cat /home/vagrant/.ssh/id_ed25519.pub
+ll
+git clone git@github.com:deved44/TP_AySO.git
+ll
+cd TP_AySO/
+git status
+touch un_archivo
+ll
+git status
+git add .
+git status
+git commit -m "add: primer commit"
+git config --global user.email "davidalesmurfing@gmail.com"
+git config --global user.name "David"
+git config --global user.name "deved44"
+git commit -m "add: primer commit"
+git status
+git push
+man ssh-keygen
+pwd
+ls -l
+cd
+pwd
+ll
+cd repogit/
+ls -l
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+man grep
+man man grep
+grep -i Home_url /etc/os-release
+grep -e Home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+id -un
+pwd
+whoami
+id -un
+echo “Usuario=$(whoami)” > datos_usuario.txt
+cd
+ll
+git add .
+pwd
+cd repogit/
+ll
+pwd
+cd TP_AySO/
+pwd
+git add .
+git config --global user.email "davidalesmurfing@gmail.com"
+git config --global user.name "deved44"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+cd
+pwd
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+pwd
+ll
+cd repogit/
+git clone git@github.com:deved44/TP_AySO.git
+cd TP_AySO/
+pwd
+ll
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ll
+git add .
+git config --global user.email "davidalesmurfing@gmail.com"
+git config --global user.name "deved44"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+cpuinfo
+cd
+pwd
+ll
+/proc/
+cd /proc/
+ls
+pwd
+ll
+cd
+pwd
+cat /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo
+grep -i head -n1 "model name" /proc/cpuinfo
+grep -i tail -n1 "model name" /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo tail -n1
+grep -i "model name" /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo | tail -n1
+grep -i "model name" /proc/cpuinfo | head -n1
+grep -i "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+pwd
+ll
+cat datos_usuario.txt
+add .
+git add .
+ll
+repogit/
+cd repogit/
+ll
+cd TP_AySO/
+ll
+cat datos_usuario.txt
+grep -i "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+pwd
+ll
+touch lista_ordenada
+ll
+rm -i lista_ordenada
+ll
+touch lista_ordenada.txt
+ll
+cat /etc/passwd
+man grep
+grep -v "nologin" /etc/passwd | head -n10
+man sort
+grep -v "nologin" /etc/passwd | head -n10 | sort -k7
+history
+grep -v "nologin" /etc/passwd | head -n10 | sort -k7 >> lista_ordenada.txt
+cat lista_ordenada.txt
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+ll
+touch comando_dump_net.txt
+ll
+cat comando_dump_net.txt
+cat > comando_dump_net.txt
+ll
+cat comando_dump_net.txt
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cat README.md
+pwd
+cat README.md
+pwd
+cat <<EOF >> README.md
+Alumno: <David Morales>
+División: <313>
+Turno: <Noche>
+EOF
+
+cat README.md
+git add .
+git commit -m "docs: Agregamos informacion personal del alumno al README"
+history -a
